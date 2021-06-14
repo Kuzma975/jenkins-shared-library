@@ -1,0 +1,14 @@
+#!groovy
+
+library("shared-library@master") _
+
+properties([
+    parameters([
+        properties.choiceOfLibraryBranch()
+    ])
+])
+
+library("shared-library@${pipelineSharedLibrary}") _
+node {
+    ls()
+}
