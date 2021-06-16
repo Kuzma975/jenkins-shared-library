@@ -1,6 +1,6 @@
 #!groovy
 
-library("shared-library@master") _
+library("shared-library@feature-2") _
 
 properties([
     parameters([
