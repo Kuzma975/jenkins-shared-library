@@ -4,7 +4,7 @@ library("shared-library@master") _
 
 properties([
     parameters([
-        properties.choiceOfLibraryBranch()
+        prop.choiceOfLibraryBranch()
     ])
 ])
 
