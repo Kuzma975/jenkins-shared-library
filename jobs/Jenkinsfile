@@ -10,5 +10,6 @@ properties([
 
 library("shared-library@${pipelineSharedLibrary}") _
 node {
+    ex()
     ex.someFunction()
 }

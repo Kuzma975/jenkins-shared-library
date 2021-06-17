@@ -1,6 +1,8 @@
 #!groovy
 
-def call() {}
+def call() {
+    println("Hello, I'm EX")
+}
 
 
 def someFunction() {
