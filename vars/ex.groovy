@@ -4,5 +4,10 @@ def call() {}
 
 
 def someFunction() {
-    ls.ex()
+    try {
+        ls.ex()
+    } catch(Exception ex) {
+        println(ex)
+        throw ex
+    }
 }
