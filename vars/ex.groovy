@@ -9,7 +9,7 @@ def someFunction() {
     try {
         ls.ex()
     } catch(Exception ex) {
-        println(ex.printStackTrace)
+        println(ex.printStackTrace())
         throw ex
     }
 }
