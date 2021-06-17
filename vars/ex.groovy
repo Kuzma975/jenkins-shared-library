@@ -7,7 +7,7 @@ def someFunction() {
     try {
         ls.ex()
     } catch(Exception ex) {
-        println(ex)
+        println(ex.printStackTrace)
         throw ex
     }
 }
